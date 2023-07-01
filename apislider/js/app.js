@@ -11,15 +11,15 @@ let users = []
             document.getElementById('count').innerHTML=users.length
           x+=`
           <div class="col-lg-2">
-          <div class="kart">
+            <div class="kart">
               <img src="${user.picture.medium}" alt="">
               <div>
                   <h5>${user.name.first} ${user.name.last}</h5>
                   <p>Tel : ${user.phone}</p>
                   <p class="as">Email : ${user.email}</p>
               </div>
-          </div>
-      </div>
+            </div>
+           </div>
           `
         }
         document.querySelector('#list').innerHTML = x
@@ -87,11 +87,3 @@ select.onchange = function() {
     document.querySelector('#list').innerHTML = x
 }
 
-next.onclick = () => {
-    document.body.style.backgroundColor = 'blue'
-}
-
-
-back.onclick = () => {
-    document.body.style.backgroundColor = 'red'
-}
