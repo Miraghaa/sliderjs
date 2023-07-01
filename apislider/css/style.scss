@@ -14,35 +14,9 @@
 }
 
 .slider{
-    position: relative;
     margin: 20px 50px;
     img{
         width: 100%;
         height: 60vh;
-    }
-    .next{
-        position: absolute;
-        top: 50%;
-        right: 20px;
-        border: 1px solid black;
-        background-color: black;
-        color: #fff;
-        padding: 8px 15px;
-        font-size: 15px;
-        border-radius: 100%;
-
-    }
-    .back{
-        position: absolute;
-        top: 50%;
-        left: 20px;
-        border: 1px solid black;
-        background-color: black;
-        color: #fff;
-        padding: 8px 15px;
-        font-size: 15px;
-        border-radius: 100%;
-        z-index: 3;
-
     }
 }
