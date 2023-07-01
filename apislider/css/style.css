@@ -1,0 +1,46 @@
+.kart {
+  padding: 5px;
+  border: 1px solid gray;
+}
+.kart img {
+  width: 100%;
+}
+.kart .as {
+  width: 100%;
+  font-size: 9px;
+}
+.kart h5 {
+  font-size: 15px;
+}
+
+.slider {
+  position: relative;
+  margin: 20px 50px;
+}
+.slider img {
+  width: 100%;
+  height: 60vh;
+}
+.slider .next {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  border: 1px solid black;
+  background-color: black;
+  color: #fff;
+  padding: 8px 15px;
+  font-size: 15px;
+  border-radius: 100%;
+}
+.slider .back {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  border: 1px solid black;
+  background-color: black;
+  color: #fff;
+  padding: 8px 15px;
+  font-size: 15px;
+  border-radius: 100%;
+  z-index: 3;
+}/*# sourceMappingURL=style.css.map */
