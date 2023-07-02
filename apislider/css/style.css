@@ -14,33 +14,30 @@
 }
 
 .slider {
-  position: relative;
   margin: 20px 50px;
+  position: relative;
 }
 .slider img {
   width: 100%;
   height: 60vh;
 }
-.slider .next {
-  position: absolute;
-  top: 50%;
-  right: 20px;
-  border: 1px solid black;
-  background-color: black;
-  color: #fff;
-  padding: 8px 15px;
-  font-size: 15px;
-  border-radius: 100%;
-}
-.slider .back {
+.slider .next1 {
   position: absolute;
   top: 50%;
   left: 20px;
-  border: 1px solid black;
-  background-color: black;
-  color: #fff;
-  padding: 8px 15px;
-  font-size: 15px;
+  border: 1px solid gray;
+  background-color: #fff;
+  padding: 10px 15px;
   border-radius: 100%;
-  z-index: 3;
+  color: #000;
+}
+.slider .back1 {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  border: 1px solid gray;
+  background-color: #fff;
+  padding: 10px 15px;
+  border-radius: 100%;
+  color: #000;
 }/*# sourceMappingURL=style.css.map */
