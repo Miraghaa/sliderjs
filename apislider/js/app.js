@@ -41,12 +41,6 @@ function sliders() {
         for(let user of data.results){
           z+=`
           <img src="${user.picture.medium}" alt="">
-          <div class="next1">
-          <i class="fa-solid fa-arrow-left"></i>
-      </div>
-      <div class="back1">
-          <i class="fa-solid fa-arrow-right"></i>
-      </div>
           `
         }
         document.querySelector('.slider').innerHTML = z
@@ -61,12 +55,6 @@ function sliders() {
         for(let user of data.results){
           z+=`
           <img src="${user.picture.medium}" alt="">
-          <div class="next1">
-            <i class="fa-solid fa-arrow-left"></i>
-        </div>
-        <div class="back1">
-            <i class="fa-solid fa-arrow-right"></i>
-        </div>
           
           `
         }
@@ -74,7 +62,7 @@ function sliders() {
     
     })
     .catch(err => alert('internet getdi'))
-    }, 20000);
+    }, 2000);
    
 }
 sliders()
@@ -102,12 +90,3 @@ select.onchange = function() {
     }
     document.querySelector('#list').innerHTML = x
 }
-document.addEventListener('click', function(e) {
-  if (e.target.matches('.next1')) {
-    sliders();
-  }
-
-  if (e.target.matches('.back1')) {
-    sliders();
-  }
-});
